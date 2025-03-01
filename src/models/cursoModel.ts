@@ -29,5 +29,5 @@ export class Curso extends BaseEntity{
         joinColumn:{name:'curso_id'},
         inverseJoinColumn:{name:'estudiante_id'}
     })
-    estudiante:Estudiante[];
+    estudiantes:Estudiante[];
 }
